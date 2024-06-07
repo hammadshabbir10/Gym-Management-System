@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3DA364D1-A631-4A21-8B97-679929355DD7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Member_Forms</RootNamespace>
+    <AssemblyName>Member_Forms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddMember.Designer.cs">
+      <DependentUpon>AddMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminSignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminSignup.Designer.cs">
+      <DependentUpon>AdminSignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_MemRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_MemRemove.Designer.cs">
+      <DependentUpon>Admin_MemRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_MemRequests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_MemRequests.Designer.cs">
+      <DependentUpon>Admin_MemRequests.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_TraineRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_TraineRemove.Designer.cs">
+      <DependentUpon>Admin_TraineRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GymPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GymPerformance.Designer.cs">
+      <DependentUpon>GymPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberAddGym.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberAddGym.Designer.cs">
+      <DependentUpon>MemberAddGym.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberGetTrained.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberGetTrained.Designer.cs">
+      <DependentUpon>MemberGetTrained.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberReports.Designer.cs">
+      <DependentUpon>MemberReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Member_Login.Designer.cs">
+      <DependentUpon>Member_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Login.Designer.cs">
+      <DependentUpon>Admin_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_Interface.Designer.cs">
+      <DependentUpon>Admin_Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_MemRevoke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin_MemRevoke.Designer.cs">
+      <DependentUpon>Admin_MemRevoke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layout.Designer.cs">
+      <DependentUpon>Layout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OwnerAddMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OwnerAddMember.Designer.cs">
+      <DependentUpon>OwnerAddMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OwnerAddTrainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OwnerAddTrainer.Designer.cs">
+      <DependentUpon>OwnerAddTrainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OwnerSignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OwnerSignup.Designer.cs">
+      <DependentUpon>OwnerSignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner_AddTrainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner_AddTrainer.Designer.cs">
+      <DependentUpon>Owner_AddTrainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner_GymRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner_GymRegistration.Designer.cs">
+      <DependentUpon>Owner_GymRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner_Interface.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner_Interface.Designer.cs">
+      <DependentUpon>Owner_Interface.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Owner_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Owner_Login.Designer.cs">
+      <DependentUpon>Owner_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberDietForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberDietForm.Designer.cs">
+      <DependentUpon>MemberDietForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberExerciseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberExerciseForm.Designer.cs">
+      <DependentUpon>MemberExerciseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberFeedBack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberFeedBack.Designer.cs">
+      <DependentUpon>MemberFeedBack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberForm.Designer.cs">
+      <DependentUpon>MemberForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberLayout.Designer.cs">
+      <DependentUpon>MemberLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberSessionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberSessionForm.Designer.cs">
+      <DependentUpon>MemberSessionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberWorkoutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberWorkoutForm.Designer.cs">
+      <DependentUpon>MemberWorkoutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QueryReports.Designer.cs">
+      <DependentUpon>QueryReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerAddGym.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerAddGym.Designer.cs">
+      <DependentUpon>TrainerAddGym.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerMemberPlans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerMemberPlans.Designer.cs">
+      <DependentUpon>TrainerMemberPlans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrainerReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TrainerReports.Designer.cs">
+      <DependentUpon>TrainerReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer_CreateAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trainer_CreateAccount.Designer.cs">
+      <DependentUpon>Trainer_CreateAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer_DP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trainer_DP.Designer.cs">
+      <DependentUpon>Trainer_DP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer_EP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trainer_EP.Designer.cs">
+      <DependentUpon>Trainer_EP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer_FB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trainer_FB.Designer.cs">
+      <DependentUpon>Trainer_FB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer_Layout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trainer_Layout.Designer.cs">
+      <DependentUpon>Trainer_Layout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trainer_Login.Designer.cs">
+      <DependentUpon>Trainer_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer_TS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trainer_TS.Designer.cs">
+      <DependentUpon>Trainer_TS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Trainer_WP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trainer_WP.Designer.cs">
+      <DependentUpon>Trainer_WP.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddMember.resx">
+      <DependentUpon>AddMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminSignup.resx">
+      <DependentUpon>AdminSignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_MemRemove.resx">
+      <DependentUpon>Admin_MemRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_MemRequests.resx">
+      <DependentUpon>Admin_MemRequests.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_TraineRemove.resx">
+      <DependentUpon>Admin_TraineRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GymPerformance.resx">
+      <DependentUpon>GymPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberAddGym.resx">
+      <DependentUpon>MemberAddGym.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberGetTrained.resx">
+      <DependentUpon>MemberGetTrained.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberReports.resx">
+      <DependentUpon>MemberReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Member_Login.resx">
+      <DependentUpon>Member_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Login.resx">
+      <DependentUpon>Admin_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Interface.resx">
+      <DependentUpon>Admin_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_MemRevoke.resx">
+      <DependentUpon>Admin_MemRevoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layout.resx">
+      <DependentUpon>Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OwnerAddMember.resx">
+      <DependentUpon>OwnerAddMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OwnerAddTrainer.resx">
+      <DependentUpon>OwnerAddTrainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OwnerSignup.resx">
+      <DependentUpon>OwnerSignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner_AddTrainer.resx">
+      <DependentUpon>Owner_AddTrainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner_GymRegistration.resx">
+      <DependentUpon>Owner_GymRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner_Interface.resx">
+      <DependentUpon>Owner_Interface.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Owner_Login.resx">
+      <DependentUpon>Owner_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberDietForm.resx">
+      <DependentUpon>MemberDietForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberExerciseForm.resx">
+      <DependentUpon>MemberExerciseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberFeedBack.resx">
+      <DependentUpon>MemberFeedBack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberForm.resx">
+      <DependentUpon>MemberForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberLayout.resx">
+      <DependentUpon>MemberLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberSessionForm.resx">
+      <DependentUpon>MemberSessionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberWorkoutForm.resx">
+      <DependentUpon>MemberWorkoutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QueryReports.resx">
+      <DependentUpon>QueryReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerAddGym.resx">
+      <DependentUpon>TrainerAddGym.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerMemberPlans.resx">
+      <DependentUpon>TrainerMemberPlans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TrainerReports.resx">
+      <DependentUpon>TrainerReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trainer_CreateAccount.resx">
+      <DependentUpon>Trainer_CreateAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trainer_DP.resx">
+      <DependentUpon>Trainer_DP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trainer_EP.resx">
+      <DependentUpon>Trainer_EP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trainer_FB.resx">
+      <DependentUpon>Trainer_FB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trainer_Layout.resx">
+      <DependentUpon>Trainer_Layout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trainer_Login.resx">
+      <DependentUpon>Trainer_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trainer_TS.resx">
+      <DependentUpon>Trainer_TS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trainer_WP.resx">
+      <DependentUpon>Trainer_WP.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
