@@ -1,0 +1,11 @@
+MemberID,TrainerID,ExerciseName,ESets,EReps,TargetMuscle,Machine,RestInterval
+1,1,Squats,3,12,Legs,None,2 mins
+2,3,Bench Press,4,10,Chest,Bench Press,3 mins
+3,5,Deadlifts,3,8,Back,None,2 mins
+4,7,Pull-ups,3,10,Arms,Pull-up Bar,1 min
+4,8,Push-ups,5,20,Chest,None,1 min
+33,6,Leg Press,4,15,Legs,Leg Press Machine,3 mins
+32,4,Cycling,1,30,Cardio,Stationary Bike,None
+31,2,Plank,4,60,Core,None,1 min
+7,14,Lunges,5,15,Legs,None,2 mins
+35,10,Rowing,2,15,Back,Rowing Machine,2 mins

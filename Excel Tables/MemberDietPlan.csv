@@ -1,0 +1,11 @@
+MemberID,TrainerID,Typeofdiet,Nutrition,Purpose,Peanuts,Gluten,Lactose,Carbs,Protein,Fat,Fibre
+1,1,Low Carb,"High Protein, Low Carb",Weight Loss,0,1,0,20,50,30,5
+2,3,High Protein,High Protein,Muscle Gain,0,0,1,30,50,20,5
+3,5,Vegan,Balanced,Health Maintenance,0,0,0,50,20,20,10
+4,7,Mediterranean,Diverse,Heart Health,0,1,0,40,30,30,5
+4,8,Paleo,Natural Foods,Energy Boost,0,0,0,30,40,30,10
+33,6,Ketogenic,"High Fat, Low Carb",Weight Loss,1,0,0,10,20,70,5
+32,4,Balanced,Balanced Nutrients,General Health,0,0,0,40,30,30,15
+31,2,Detox,"Low Calorie, Nutrient Rich",Detoxification,0,1,0,25,25,10,15
+7,13,Gluten-Free,No Gluten,Allergy Management,0,0,1,40,30,30,10
+35,10,Intermittent Fasting,Varied,Weight Management,0,0,0,30,20,50,10

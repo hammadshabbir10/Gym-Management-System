@@ -1,0 +1,11 @@
+MemberID,TrainerID,Title,Goal,Experience,Schedule
+1,1,Beginner Strength,Gain Muscle,Beginner,"Mon, Wed, Fri"
+2,3,Cardio Blast,Lose Weight,Intermediate,Daily 30 mins
+3,5,Flexibility Focus,Improve Flexibility,Beginner,"Tue, Thu"
+4,7,Advanced Yoga,Enhance Balance,Advanced,"Wed, Sat"
+4,8,Bootcamp,High Intensity,Advanced,"Mon, Wed, Fri"
+33,6,Pilates Introduction,Core Strength,Beginner,"Tue, Thu, Sat"
+32,4,Marathon Prep,Increase Stamina,Intermediate,Daily
+31,2,Senior Fitness,Maintain Mobility,Senior,"Mon, Wed, Fri"
+7,14,Teen Athlete,Sports Performance,Intermediate,"Tue, Thu, Sat"
+35,10,Pregnancy Yoga,Safe Exercise,Beginner,"Mon, Wed"
