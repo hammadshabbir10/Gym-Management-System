@@ -20,49 +20,37 @@ Gym Management System is a comprehensive C# application integrated with an SQL b
 
 ## 💡 Project Goals
 
-Simplify gym operations through automation
-
-Provide role-specific functionalities for staff and members
-
-Integrate SQL backend for secure data storage and retrieval
-
-Enhance user experience with an intuitive C# interface
+- Simplify gym operations through automation
+- Provide role-specific functionalities for staff and members
+- Integrate SQL backend for secure data storage and retrieval
+- Enhance user experience with an intuitive C# interface
 
 ---
 
 ## 🧱 System Architecture Overview
 
-User Management: Admin, Owner, Trainer, and Member roles with specific login interfaces
-
-Database Integration: SQL backend for managing member data, schedules, and performance metrics
-
-Class Scheduling: Feature for trainers and admins to manage class schedules and assignments
-
-Performance Tracking: Gym performance analytics with interactive dashboards
-
-Query System: Execute custom queries for real-time data retrieval
+- User Management: Admin, Owner, Trainer, and Member roles with specific login interfaces
+- Database Integration: SQL backend for managing member data, schedules, and performance metrics
+- Class Scheduling: Feature for trainers and admins to manage class schedules and assignments
+- Performance Tracking: Gym performance analytics with interactive dashboards
+- Query System: Execute custom queries for real-time data retrieval
 
 ---
 
 ## 🧩 Possible Extensions
 
-Integrate mobile or web-based frontend for broader accessibility
-
-Add advanced gym analytics features like member engagement tracking
-
-Implement payment processing for memberships and classes
-
-Enhance security features, including multi-factor authentication for users
+- Integrate mobile or web-based frontend for broader accessibility
+- Add advanced gym analytics features like member engagement tracking
+- Implement payment processing for memberships and classes
+- Enhance security features, including multi-factor authentication for users
 
 ---
 
 ## 🚀 Ideal For
 
-Gym management system prototypes
-
-C# and SQL-based application portfolio projects
-
-Enhancing gym operations with technology
+- Gym management system prototypes
+- C# and SQL-based application portfolio projects
+- Enhancing gym operations with technology
 
 
 # Some Interfaces of the Project
